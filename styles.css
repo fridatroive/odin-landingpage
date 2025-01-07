@@ -5,7 +5,7 @@
     --font: "Roboto", serif;
 
     --quote-style: italic;
-    --quote-weight: light;
+    --quote-weight: 300;
     --bold-weight: 900;
 
     --xl-font: 48px;
@@ -143,5 +143,33 @@ a {
     border-radius: 8px;
     text-align: center;
     color: var(--light-font-color);
+}
 
+
+.block-3 {
+    background-color: var(--medium-bg-color);
+    padding: 100px ;
+    width: 100vw;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.quote-text {
+    font-size: var(--l-font);
+    color: var(--dark-font-color);
+    font-style: var(--quote-style);
+    font-weight: var(--quote-weight);
+    flex: 1 1 auto;
+}
+
+.quote-author {
+    text-align: end;
+    text-wrap: nowrap;
+    font-size: var(--s-font);
+    font-weight: var(--bold-weight);
+    flex: 1 1 auto;
 }
