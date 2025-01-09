@@ -100,8 +100,9 @@ a {
 .block-1 button {
     background-color: var(--cta-bg-color);
     color: var(--light-bg-color);
-    padding: 8px 32px;
-    border-radius: 4px;
+    font-weight: var(--bold-weight);
+    padding: 8px 24px;
+    border-radius: 8px;
     border: none;
 }
 .block-1 img {
